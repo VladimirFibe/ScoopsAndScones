@@ -14,6 +14,20 @@
 		024960192AABBA3700F3EE9C /* ScoopsAndSconesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960182AABBA3700F3EE9C /* ScoopsAndSconesTests.swift */; };
 		024960232AABBA3700F3EE9C /* ScoopsAndSconesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960222AABBA3700F3EE9C /* ScoopsAndSconesUITests.swift */; };
 		024960252AABBA3700F3EE9C /* ScoopsAndSconesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960242AABBA3700F3EE9C /* ScoopsAndSconesUITestsLaunchTests.swift */; };
+		024960342AABBB9B00F3EE9C /* icecream.json in Resources */ = {isa = PBXBuildFile; fileRef = 024960332AABBB9B00F3EE9C /* icecream.json */; };
+		0249603A2AABBC2F00F3EE9C /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960392AABBC2F00F3EE9C /* IceCream.swift */; };
+		0249603D2AABBC6700F3EE9C /* IceCreamDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249603C2AABBC6700F3EE9C /* IceCreamDataStore.swift */; };
+		024960412AABBD5200F3EE9C /* CreateIceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960402AABBD5200F3EE9C /* CreateIceCreamView.swift */; };
+		024960432AABBF1700F3EE9C /* CreateIceCreamImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960422AABBF1700F3EE9C /* CreateIceCreamImageView.swift */; };
+		024960452AABBF5300F3EE9C /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960442AABBF5300F3EE9C /* Bundle+Extension.swift */; };
+		024960482AABC39200F3EE9C /* CreateIceCreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960472AABC39200F3EE9C /* CreateIceCreamModel.swift */; };
+		0249604A2AABC56600F3EE9C /* CreateIceCreamInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960492AABC56600F3EE9C /* CreateIceCreamInteractor.swift */; };
+		0249604C2AABC7A500F3EE9C /* CreateIceCreamPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249604B2AABC7A500F3EE9C /* CreateIceCreamPresenter.swift */; };
+		0249604E2AABC9CD00F3EE9C /* CreateIceCreamConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249604D2AABC9CD00F3EE9C /* CreateIceCreamConfigurator.swift */; };
+		024960522AABD7FB00F3EE9C /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960502AABD7FB00F3EE9C /* Seeds.swift */; };
+		024960562AABD82100F3EE9C /* CreateIceCreamInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960532AABD82100F3EE9C /* CreateIceCreamInteractorTests.swift */; };
+		024960572AABD82100F3EE9C /* CreateIceCreamPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960542AABD82100F3EE9C /* CreateIceCreamPresenterTests.swift */; };
+		024960582AABD82100F3EE9C /* CreateIceCreamViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024960552AABD82100F3EE9C /* CreateIceCreamViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,21 @@
 		0249601E2AABBA3700F3EE9C /* ScoopsAndSconesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopsAndSconesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		024960222AABBA3700F3EE9C /* ScoopsAndSconesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopsAndSconesUITests.swift; sourceTree = "<group>"; };
 		024960242AABBA3700F3EE9C /* ScoopsAndSconesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopsAndSconesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		024960312AABBA5800F3EE9C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		024960332AABBB9B00F3EE9C /* icecream.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = icecream.json; sourceTree = "<group>"; };
+		024960392AABBC2F00F3EE9C /* IceCream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCream.swift; sourceTree = "<group>"; };
+		0249603C2AABBC6700F3EE9C /* IceCreamDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamDataStore.swift; sourceTree = "<group>"; };
+		024960402AABBD5200F3EE9C /* CreateIceCreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamView.swift; sourceTree = "<group>"; };
+		024960422AABBF1700F3EE9C /* CreateIceCreamImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamImageView.swift; sourceTree = "<group>"; };
+		024960442AABBF5300F3EE9C /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		024960472AABC39200F3EE9C /* CreateIceCreamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamModel.swift; sourceTree = "<group>"; };
+		024960492AABC56600F3EE9C /* CreateIceCreamInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamInteractor.swift; sourceTree = "<group>"; };
+		0249604B2AABC7A500F3EE9C /* CreateIceCreamPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamPresenter.swift; sourceTree = "<group>"; };
+		0249604D2AABC9CD00F3EE9C /* CreateIceCreamConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamConfigurator.swift; sourceTree = "<group>"; };
+		024960502AABD7FB00F3EE9C /* Seeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seeds.swift; sourceTree = "<group>"; };
+		024960532AABD82100F3EE9C /* CreateIceCreamInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateIceCreamInteractorTests.swift; sourceTree = "<group>"; };
+		024960542AABD82100F3EE9C /* CreateIceCreamPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateIceCreamPresenterTests.swift; sourceTree = "<group>"; };
+		024960552AABD82100F3EE9C /* CreateIceCreamViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateIceCreamViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +103,7 @@
 		02495FFB2AABBA3600F3EE9C = {
 			isa = PBXGroup;
 			children = (
+				024960312AABBA5800F3EE9C /* README.md */,
 				024960062AABBA3600F3EE9C /* ScoopsAndScones */,
 				024960172AABBA3700F3EE9C /* ScoopsAndSconesTests */,
 				024960212AABBA3700F3EE9C /* ScoopsAndSconesUITests */,
@@ -95,9 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				024960072AABBA3600F3EE9C /* ScoopsAndSconesApp.swift */,
-				024960092AABBA3600F3EE9C /* ContentView.swift */,
-				0249600B2AABBA3700F3EE9C /* Assets.xcassets */,
-				0249600D2AABBA3700F3EE9C /* Preview Content */,
+				024960462AABBF6B00F3EE9C /* Extension */,
+				024960352AABBBD600F3EE9C /* Domain */,
+				024960322AABBAB500F3EE9C /* Supporting Files */,
 			);
 			path = ScoopsAndScones;
 			sourceTree = "<group>";
@@ -113,6 +143,7 @@
 		024960172AABBA3700F3EE9C /* ScoopsAndSconesTests */ = {
 			isa = PBXGroup;
 			children = (
+				0249604F2AABD7FB00F3EE9C /* Scenes */,
 				024960182AABBA3700F3EE9C /* ScoopsAndSconesTests.swift */,
 			);
 			path = ScoopsAndSconesTests;
@@ -125,6 +156,91 @@
 				024960242AABBA3700F3EE9C /* ScoopsAndSconesUITestsLaunchTests.swift */,
 			);
 			path = ScoopsAndSconesUITests;
+			sourceTree = "<group>";
+		};
+		024960322AABBAB500F3EE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0249600B2AABBA3700F3EE9C /* Assets.xcassets */,
+				024960332AABBB9B00F3EE9C /* icecream.json */,
+				024960092AABBA3600F3EE9C /* ContentView.swift */,
+				0249600D2AABBA3700F3EE9C /* Preview Content */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		024960352AABBBD600F3EE9C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				024960362AABBBE400F3EE9C /* IceCream */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		024960362AABBBE400F3EE9C /* IceCream */ = {
+			isa = PBXGroup;
+			children = (
+				0249603E2AABBCF600F3EE9C /* Scenes */,
+				0249603B2AABBC4000F3EE9C /* Model */,
+			);
+			path = IceCream;
+			sourceTree = "<group>";
+		};
+		0249603B2AABBC4000F3EE9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				024960392AABBC2F00F3EE9C /* IceCream.swift */,
+				0249603C2AABBC6700F3EE9C /* IceCreamDataStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0249603E2AABBCF600F3EE9C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0249603F2AABBD0500F3EE9C /* CreateIceCream */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0249603F2AABBD0500F3EE9C /* CreateIceCream */ = {
+			isa = PBXGroup;
+			children = (
+				024960402AABBD5200F3EE9C /* CreateIceCreamView.swift */,
+				024960492AABC56600F3EE9C /* CreateIceCreamInteractor.swift */,
+				0249604B2AABC7A500F3EE9C /* CreateIceCreamPresenter.swift */,
+				024960472AABC39200F3EE9C /* CreateIceCreamModel.swift */,
+				024960422AABBF1700F3EE9C /* CreateIceCreamImageView.swift */,
+				0249604D2AABC9CD00F3EE9C /* CreateIceCreamConfigurator.swift */,
+			);
+			path = CreateIceCream;
+			sourceTree = "<group>";
+		};
+		024960462AABBF6B00F3EE9C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				024960442AABBF5300F3EE9C /* Bundle+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0249604F2AABD7FB00F3EE9C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				024960502AABD7FB00F3EE9C /* Seeds.swift */,
+				024960512AABD7FB00F3EE9C /* IceCream */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		024960512AABD7FB00F3EE9C /* IceCream */ = {
+			isa = PBXGroup;
+			children = (
+				024960532AABD82100F3EE9C /* CreateIceCreamInteractorTests.swift */,
+				024960542AABD82100F3EE9C /* CreateIceCreamPresenterTests.swift */,
+				024960552AABD82100F3EE9C /* CreateIceCreamViewTests.swift */,
+			);
+			path = IceCream;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024960342AABBB9B00F3EE9C /* icecream.json in Resources */,
 				0249600F2AABBA3700F3EE9C /* Preview Assets.xcassets in Resources */,
 				0249600C2AABBA3700F3EE9C /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +374,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0249604A2AABC56600F3EE9C /* CreateIceCreamInteractor.swift in Sources */,
+				0249604C2AABC7A500F3EE9C /* CreateIceCreamPresenter.swift in Sources */,
 				0249600A2AABBA3600F3EE9C /* ContentView.swift in Sources */,
+				024960452AABBF5300F3EE9C /* Bundle+Extension.swift in Sources */,
+				0249604E2AABC9CD00F3EE9C /* CreateIceCreamConfigurator.swift in Sources */,
+				024960482AABC39200F3EE9C /* CreateIceCreamModel.swift in Sources */,
+				0249603A2AABBC2F00F3EE9C /* IceCream.swift in Sources */,
+				0249603D2AABBC6700F3EE9C /* IceCreamDataStore.swift in Sources */,
+				024960432AABBF1700F3EE9C /* CreateIceCreamImageView.swift in Sources */,
+				024960412AABBD5200F3EE9C /* CreateIceCreamView.swift in Sources */,
 				024960082AABBA3600F3EE9C /* ScoopsAndSconesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +392,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024960562AABD82100F3EE9C /* CreateIceCreamInteractorTests.swift in Sources */,
+				024960572AABD82100F3EE9C /* CreateIceCreamPresenterTests.swift in Sources */,
+				024960522AABD7FB00F3EE9C /* Seeds.swift in Sources */,
 				024960192AABBA3700F3EE9C /* ScoopsAndSconesTests.swift in Sources */,
+				024960582AABD82100F3EE9C /* CreateIceCreamViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
